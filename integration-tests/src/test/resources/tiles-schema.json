@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Tiles List",
+  "type": "array",
+  "items": {
+    "title": "tiles",
+    "type": "object",
+    "required": ["task", "title"]
+  },
+  "minItems": 1
+}

@@ -1,0 +1,10 @@
+---
+erp:
+  default: "DT1_100"
+  systems:
+    - alias: "DT1_100"
+      uri: "http://dt1.https:11"
+      systemId: "DT1"           # optional, defaults to ""
+      sapClient: "100"                 # optional, defaults to default SAP client
+      locale: "de"                     # optional, defaults to English (US)
+      #erpEdition: "cloud"              # optional, defaults to "cloud"
